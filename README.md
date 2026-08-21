@@ -56,6 +56,8 @@ The frontend automatically calls `/api/users/pincode/{pincode}`.
 
 
 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8cbcd37e-d6ff-4473-bc5a-0ae73b791494" />
+
 
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/4b12e63b-acbe-4248-9f48-6f48bc0dd85d" />
 
