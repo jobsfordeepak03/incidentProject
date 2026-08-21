@@ -1,0 +1,55 @@
+/* userdata.JPG-style registration screen */
+.userdata-page{
+  min-height:100vh;background:#fff;color:#333;font-family:Arial,Helvetica,sans-serif;
+}
+.userdata-topbar{
+  height:48px;background:#2f80ed;width:100%;
+}
+.userdata-panel{
+  width:min(760px,92vw);margin:18px auto 50px;
+}
+.userdata-tabs{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center;margin-bottom:18px;
+}
+.userdata-tab{
+  height:34px;display:flex;align-items:center;justify-content:center;
+  font-size:12px;color:#555;text-decoration:none;border-radius:20px;
+}
+.userdata-tab.active{
+  background:#2ed8c3;color:white;box-shadow:0 3px 8px rgba(0,0,0,.12);
+}
+.account-type{
+  font-size:12px;margin:5px 0 15px;
+}
+.account-type>span{display:block;margin-bottom:8px;font-weight:600}
+.account-type label{display:inline-flex;align-items:center;gap:5px;margin:0 45px 0 0;font-weight:400}
+.userdata-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:13px 22px;
+}
+.userdata-grid label{
+  font-size:12px;font-weight:600;margin:0;
+}
+.userdata-grid label.full{grid-column:1/-1}
+.userdata-grid input,.userdata-grid select{
+  display:block;width:100%;height:36px;margin-top:5px;padding:7px 10px;
+  border:1px solid #d7dce2;border-radius:2px;background:#fff;outline:none;
+}
+.userdata-grid input:focus,.userdata-grid select:focus{border-color:#2ed8c3}
+.mobile-row{display:grid;grid-template-columns:90px 1fr;gap:8px}
+.userdata-grid small{
+  display:block;margin-top:4px;color:#e15a64;font-size:10px;font-weight:400;
+}
+.userdata-submit{
+  display:block;width:100%;height:36px;margin-top:20px;border:0;border-radius:20px;
+  background:#2ed8c3;color:white;font-size:12px;font-weight:700;cursor:pointer;
+  box-shadow:0 3px 8px rgba(0,0,0,.10);
+}
+.userdata-error{
+  margin:8px 0 14px;padding:9px 12px;border:1px solid #ef9aa2;
+  color:#b4232f;background:#fff6f7;font-size:12px;
+}
+@media(max-width:650px){
+  .userdata-grid{grid-template-columns:1fr}
+  .userdata-grid label.full{grid-column:auto}
+  .account-type label{margin-right:15px}
+}
