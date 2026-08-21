@@ -41,12 +41,8 @@ Frontend: http://localhost:5173
 - GET /api/incidents/search?incidentId=...
 
 ## Demo PIN lookup
-For the assignment, the backend contains a small sample PIN mapping and a deterministic fallback:
-- 110001 -> New Delhi / India
-- 400001 -> Mumbai / India
-- 560001 -> Bengaluru / India
-- 500001 -> Hyderabad / India
-- 700001 -> Kolkata / India
+Provide the PIN and auto-select the City , State, and Country.
+
 
 The frontend automatically calls `/api/users/pincode/{pincode}`.
 
