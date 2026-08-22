@@ -8,6 +8,7 @@
 # Below Details for run the Incident Project 
 
 #Commands
+- install the Docker if not on testing system
 - docker --version
 - docker ps
 - open -a Docker
