@@ -1,3 +1,49 @@
+
+============================START OF RUNNING INSTRUCTION ==================================== 
+
+# Code / Project Structures on Local System, Incident Project after download from Git
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8eeab855-5ab9-441a-b27a-8f273e3a6af5" />
+
+
+# Below Details for run the Incident Project 
+
+#Commands
+- docker --version
+- docker ps
+- open -a Docker
+- docker compose up -d mysql
+
+<img width="2854" height="1688" alt="image" src="https://github.com/user-attachments/assets/675476dc-a161-4244-b163-0816521deda7" />
+
+# Run the Backend Code in Eclipse
+- IncidentManagementApplication.java
+  
+<img width="2834" height="1628" alt="image" src="https://github.com/user-attachments/assets/56133dce-6204-49d5-bb94-bd098cfcecb3" />
+
+# Run the Frontend Code with below Commands
+- npm install
+- npm run dev
+
+  <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/6a524f7e-7b37-4109-9c42-af939303c7b6" />
+
+
+# Hit the URL in browser 
+- http://localhost:5173
+  
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/3bbe8190-86f1-4985-92db-86a94e61c6ae" />
+
+
+
+
+
+========================================END OF RUNNING INSTRUCTION ==================================== 
+
+
+
+
+
+
+
 # Incident Management System
 
 Full-stack assignment implementation.
